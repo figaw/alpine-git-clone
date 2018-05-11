@@ -42,10 +42,10 @@ A single string? I haven't had luck specifying it as either,
 
 ```
 ENTRYPOINT [ 'sh', '-c' 'git' ]
-CMD [ 'clone', '$GIT_REPO_URL',  ]
+CMD [ 'clone', '$GIT_REPO_URL'  ]
 ```
 or
 ```
 ENTRYPOINT [ 'sh', '-c' ]
-CMD [ 'git', 'clone', '$GIT_REPO_URL',  ]
+CMD [ 'git', 'clone', '$GIT_REPO_URL'  ]
 ```
